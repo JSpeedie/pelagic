@@ -1,0 +1,41 @@
+! Pelagic Colourscheme designed by JSpeedie
+! https://www.github.com/JSpeedie/pelagic
+#define colour0 #2b2e38
+#define colour1 #d26464
+#define colour2 #4f806e
+#define colour3 #e0ae80
+#define colour4 #4d7099
+#define colour5 #838b73
+#define colour6 #cc7e5b
+#define colour7 #bfb8a2
+
+#define colour8 #5c6178
+#define colour9 #d26464
+#define colour10 #4f806e
+#define colour11 #e0ae80
+#define colour12 #4d7099
+#define colour13 #838b73
+#define colour14 #cc7e5b
+#define colour15 #353945
+
+*.foreground:   colour7
+*.background:   colour0
+*.cursorColor:  colour7
+
+*.color0:       colour0
+*.color1:       colour1
+*.color2:       colour2
+*.color3:       colour3
+*.color4:       colour4
+*.color5:       colour5
+*.color6:       colour6
+*.color7:       colour7
+
+*.color8:       colour8
+*.color9:       colour9
+*.color10:      colour10
+*.color11:      colour11
+*.color12:      colour12
+*.color13:      colour13
+*.color14:      colour14
+*.color15:      colour15
