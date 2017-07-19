@@ -1,4 +1,4 @@
-" pelagic.vim - Vim colourscheme.
+" pelagic.vim -- Vim color scheme.
 " Author:      JSpeedie
 
 hi clear
@@ -137,11 +137,18 @@ if &t_Co >= 256 || has("gui_running")
 		hi javaScriptBraces ctermbg=NONE ctermfg=7 cterm=NONE guibg=NONE guifg=#bfb8a2 gui=NONE
 		hi javaScriptNumber ctermbg=NONE ctermfg=5 cterm=NONE guibg=NONE guifg=#838b73 gui=NONE
 		hi markdownAutomaticLink ctermbg=NONE ctermfg=1 cterm=underline guibg=NONE guifg=#d26464 gui=underline
-			hi link markdownUrl markdownAutomaticLink
-		hi markdownError ctermbg=NONE ctermfg=7 cterm=NONE guibg=NONE guifg=#bfb8a2 gui=NONE
 		hi markdownCode ctermbg=NONE ctermfg=3 cterm=NONE guibg=NONE guifg=#e0ae80 gui=NONE
 		hi markdownCodeBlock ctermbg=NONE ctermfg=3 cterm=NONE guibg=NONE guifg=#e0ae80 gui=NONE
 		hi markdownCodeDelimiter ctermbg=NONE ctermfg=5 cterm=NONE guibg=NONE guifg=#838b73 gui=NONE
+		hi markdownError ctermbg=NONE ctermfg=7 cterm=NONE guibg=NONE guifg=#bfb8a2 gui=NONE
+		hi markdownHeadingDelimiter ctermbg=NONE ctermfg=5 cterm=NONE guibg=NONE guifg=#838b73 gui=NONE
+		hi markdownH1 ctermbg=NONE ctermfg=6 cterm=NONE guibg=NONE guifg=#cc7e5b gui=NONE
+			hi link markdownH2 markdownH1
+			hi link markdownH3 markdownH1
+			hi link markdownH4 markdownH1
+			hi link markdownH5 markdownH1
+			hi link markdownH6 markdownH1
+			hi link markdownUrl markdownAutomaticLink
 		hi xdefaultsValue ctermbg=NONE ctermfg=7 cterm=NONE guibg=NONE guifg=#bfb8a2 gui=NONE
 		hi rubyInclude ctermbg=NONE ctermfg=4 cterm=NONE guibg=NONE guifg=#4d7099 gui=NONE
 		hi rubyDefine ctermbg=NONE ctermfg=5 cterm=NONE guibg=NONE guifg=#838b73 gui=NONE
